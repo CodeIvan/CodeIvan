@@ -1,3 +1,5 @@
+Pertama import dulu database yg ada di folder db.
+
 Untuk mengkases halaman admin : 
 	*Level Admin
 	 -Username = admin
@@ -13,6 +15,6 @@ Untuk mengkases halaman admin :
 
 Web Aplikasi ini masih jauh dari kata sempurna, semoga Aplikasi CRUD sederhana ini bermanfaat bagi temen2 :D
 
-nb: halaman admin dicari sendiri ya :v
+nb: halaman login admin dicari sendiri ya :v
 
 by CodeIvan
