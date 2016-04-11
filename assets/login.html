@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Andrianext | Log in</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <!-- Bootstrap 3.3.2 -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+        <!-- Font Awesome Icons -->
+        <link href="#" rel="stylesheet">
+        <!-- Theme style -->
+        <link href="dist/css/AdminLTE.min.css" rel="stylesheet">
+        <!-- iCheck -->
+        <link href="plugins/iCheck/square/blue.css" rel="stylesheet">
+    </head>
+    <body class="login-page">
+        <div class="login-box">
+            <div class="login-logo">
+                <a href="#" ><b>Tunas Jaya</b>Elok</a>
+            </div><!-- /.login-logo -->
+            <div class="login-box-body">
+                <p class="login-box-msg">Sign in to start your session </p>
+                <form action="<?php echo site_url('login/proses'); ?>" method="post">
+                    <div class="form-group has-feedback">
+                        <input type="text" name="username" class="form-control" placeholder="Username"/>
+                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <input type="password" name="password" class="form-control" placeholder="Password"/>
+                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <div class="checkbox icheck">
+                                <label>
+                                    <input type="checkbox"> Remember Me
+                                </label>
+                            </div>
+                        </div><!-- /.col -->
+                        <div class="col-xs-4">
+                            <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                        </div><!-- /.col -->
+                    </div>
+                </form>
+            </div><!-- /.login-box-body -->
+        </div><!-- /.login-box -->
+        <!-- jQuery 2.1.3 -->
+        <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
+        <!-- Bootstrap 3.3.2 JS -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- iCheck -->
+        <script src="plugins/iCheck/icheck.min.js"></script>
+        <script>
+            $(function () {
+                $('input').iCheck({
+                    checkboxClass: 'icheckbox_square-blue',
+                    radioClass: 'iradio_square-blue',
+                    increaseArea: '20%' // optional
+                });
+            });
+        </script>
+    </body>
+</html>
