@@ -1,0 +1,18 @@
+Untuk mengkases halaman admin : 
+	*Level Admin
+	 -Username = admin
+	 -Password = admin
+
+	*Level Chef
+	 -Username = code
+	 -Password = code
+	
+	*Level Cashier
+	 -Username = dewi
+	 -Password = dewi
+
+Web Aplikasi ini masih jauh dari kata sempurna, semoga Aplikasi CRUD sederhana ini bermanfaat bagi temen2 :D
+
+nb: halaman admin dicari sendiri ya :v
+
+by CodeIvan
