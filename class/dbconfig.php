@@ -2,7 +2,7 @@
   session_start();
   class Database
   {
-    private $host = "code4.dev";
+    private $host = "localhost";
     private $db_name = "resto";
     private $username = "root";
     private $password = "";
